@@ -12,6 +12,8 @@ created_at: "2026-10-12"
 I grouped 2 sessions in one because i basically did the same thing and i can also finally say that the board is officially COMPLETE. I spent an hour trying to get rid of all of the errors and I did it! The most complex part were the connections under the CPU because it was too saturated of traces but i managed to make it. 
 ![image.png](https://cdn.hackclub.com/01a17214-6f5b-70a2-a56b-d61a1c0e7658/image.png)![image.png](https://cdn.hackclub.com/01a17214-b75b-7c8c-a784-6c36548b9e75/image.png)
 
+https://lapse.hackclub.com/timelapse/nMkb3hhSdmG6
+
 # 2026-10-24: Final Routing, DDR3 Length Tuning and Enclosure Design,
 
 **Total time spent: 2h 31m**
@@ -26,6 +28,8 @@ Obivously I forgot the most important part of the PCB, the mounting holes that i
 After 2 hours of work i got tired of wiring components (so I will wire the few remaning missing connections tomorrow or maybe today if I have time) and I started designing the case. 
 ![image.png](https://cdn.hackclub.com/01a16fcb-3896-7e86-92fe-0942dfb1e5c3/image.png)
 
+https://lapse.hackclub.com/timelapse/FLpBuOoaKuR9
+
 # 2026-10-23: Ethernet and USB 3.0  routing, and FPGA power and ground VIAs placement
 
 **Total time spent: 28m**
@@ -34,6 +38,8 @@ During this session, I focused on routing the digital section starting with the 
 ![image.png](https://cdn.hackclub.com/01a16a35-52d5-7aa2-b86e-e481e265e63c/image.png)
 The most complicated part of the session was the fanout of the FPGA. I placed a dense array of vias to bring signals and power connections out from the inner pads, routing traces across the various inner layers to distribute the core and voltage rails.
 ![image.png](https://cdn.hackclub.com/01a16a34-eeef-787f-b382-cc5f568d8dbb/image.png)
+
+https://lapse.hackclub.com/timelapse/2ol7BRmo492r
 
 # 2026-10-23: Power lines Routing, Op-Amp building and Silkscreen 
 
@@ -46,6 +52,8 @@ Then I have spent most of the times on the scaling section so the four quad ampl
 Finally, after placing the last remaining scattered components that were still outside the board I worked on the exterior aspect by adding something to the silskreen. To make future hardware debugging significantly easier I visually separated the various power supply by drawing boxes around each converter and adding text labels describing the input voltage -> output voltage 
 ![image.png](https://cdn.hackclub.com/01a16a2a-5031-7bbb-b333-5c0e701dae8f/image.png)
 
+https://lapse.hackclub.com/timelapse/R_I97PnXVrBY
+
 # 2026-10-23: Analog Comparator Routing, Layout Optimization, and Power Routing
 
 **Total time spent: 1h 32m**
@@ -55,6 +63,8 @@ I began the session by focusing on the main power input routing very wide traces
 The most difficult part was routing the four comparators and their components and also because here the signal is very sensitive i spent a lot of time optimizing the placement of the components around each chip. Then I routed major power lines such as +7V, +2.5V, and -3V using thick traces to havee minimum impedance. 
 ![image.png](https://cdn.hackclub.com/01a16a1d-ebd8-7677-8066-c548c3c579fb/image.png)
 Then to complete the comparators block I routed the sixteen output pairs from the comparators to the FPGA, and continued working on the wiring of the DDR3. 
+
+https://lapse.hackclub.com/timelapse/_YvPPK7r_Iaq
 
 # 2026-10-23: Component Placement, SFP Module Routing, DDR3 Memory, and Power Supply Section
 
@@ -68,6 +78,8 @@ Next I started to route the power supply. Initially, I made the mistake of leavi
 ![image.png](https://cdn.hackclub.com/01a16a13-018c-777d-93b0-e73596987c8e/image.png)
 Finally, I worked on the high-speed memory interface. I performed the BGA fanout for the DDR3 memory routing the power and ground pads directly to the internal layers through vias before starting to route the signal traces toward the FPGA pin array. I positioned termination resistors really close to the memory chip to preserve signal integrity.
 ![image.png](https://cdn.hackclub.com/01a16a13-3319-75d6-87d9-ab9be3a11488/image.png)
+
+https://lapse.hackclub.com/timelapse/y6gFCRQwnq6J
 
 # 2026-10-23: FPGA Pinout Completion, SFP Module Interface, and Component Updates
 
@@ -83,12 +95,16 @@ After completing the connections I assigned the correct and updated footprints o
 In the end I improved the readability of the power supply section by enclosing the input protection circuit within a blue rectangle. I also added an extra 100 nF decoupling capacitor to the USB interface and replaced the generic differential oscillator symbol with the SiT9365 model, ensuring that its power supply pin was connected to the +3.3V rail.
 ![image.png](https://cdn.hackclub.com/01a16978-f87a-7c91-83ce-9c4a2373da76/image.png)
 
+https://lapse.hackclub.com/timelapse/ASAkN_IpE-ne
+
 # 2026-10-23: Changing CPU symbol, footprint and re-wiring
 
 **Total time spent: 27m**
 
 Unfortunately I discovered after searching for a while that I imported the wrong CPU symbol and footprint. So now i need to re-wire EVERYTHING. I used the cpu variant with less pins and it didn't have the functionality to support everything on my board because I couldn't connect it. So I imported the correct CPU that has 676 pins. Then i transposed some NET Labels that were connected to the new CPU (I will do the rest in the next session)
 ![image.png](https://cdn.hackclub.com/01a168e4-6b43-753b-abee-c798535f7bba/image.png)![image.png](https://cdn.hackclub.com/01a168e4-8ca7-757b-a6a1-a0d035a5d843/image.png)
+
+https://lapse.hackclub.com/timelapse/n4XFIBXOrjzn
 
 # 2026-10-23: Complete FPGA I/O Bank Mapping, DDR/Negative Supply ERC Corrections, and Netlist Import into the PCB
 
@@ -105,6 +121,8 @@ After a while I have run the first ERC and i noticed some errors on the power su
 Finally, I assigned footprints to all schematic symbols, also searching LCSC for a combined cage-and-20-pin connector footprint for the three SFP modules. I then imported the complete netlist into the PCB Editor.
 ![image.png](https://cdn.hackclub.com/01a168d5-4933-71c1-a4eb-5b8acb81cf78/image.png)
 
+https://lapse.hackclub.com/timelapse/Gm6pwwExQQ-_
+
 # 2026-10-22: Completion of the DDR3 Interface, QSPI Memory, and JTAG for the FPGA, and Power Supply Design
 
 **Total time spent: 59m**
@@ -120,11 +138,15 @@ Then I focused entirely on the power supply design to generate all the system vo
 Finally, I designed the other voltage regulators using three TPS563200 buck converters to generate the +3.3V +1.5V and +7V rails. I added two low-dropout linear regulators, an AP2112K-2.5 and a TLV75512PDBV, to provide low noise +2.5V and +1.2V rails. I also included a TPS51200DRC regulator to generate the +0V75_VTT and +0V75_VREF rails. To complete the power supply, I also designed an inverting converter with to generate the negative -3V supply required by the comparators and the amplifiers.
 ![image.png](https://cdn.hackclub.com/01a1652d-b82e-7224-bdf2-32c9acee3431/image.png)
 
+https://lapse.hackclub.com/timelapse/Lp71BGqRjdNj
+
 # 2026-10-22: Scaling Power Supply, DAC, and Ethernet Fix and completations
 
 **Total time spent: 20m**
 
 I didn’t have much time this session, so there isn’t much to report. I added 2 missing connections on the DAC ![image.png](https://cdn.hackclub.com/01a1651a-45cd-75e9-929a-8b036f6488a5/image.png)and fixed the missing resistors and power connections to the scaling stage (I also rearranged them to make the sheet cleaner) ![image.png](https://cdn.hackclub.com/01a16519-d014-74c4-ba54-f167ae6db325/image.png) cleaned up USB-C ERC warnings, and started to write the ethernet chip net lables.![image.png](https://cdn.hackclub.com/01a16519-fcfe-7340-9874-558528bb430b/image.png)
+
+https://lapse.hackclub.com/timelapse/gofYMTyGLVtO
 
 # 2026-10-22: Revision of the 16-Channel Comparator Stage, DAC Scaling, USB 3.0 Interface, and Ethernet PHY
 
@@ -139,6 +161,8 @@ For high-speed data acquisition to the PC I completed the schematic for the USB 
 Finally, I started wiring the Ethernet controller but I didn't have much time so I left it unfinished
 ![image.png](https://cdn.hackclub.com/01a1650a-deaa-75e5-aff7-5c42507d9c27/image.png)
 
+https://lapse.hackclub.com/timelapse/ssRzn1akEcNv
+
 # 2026-10-22: 16-Channel Front-End Schematics, SFP Modules, and DDR3L for the FPGA
 
 **Total time spent: 1h 43m**
@@ -149,4 +173,6 @@ In this session, I designed the main blocks of an AMD Kintex-7 acquisition board
 For the 16-channel analog front end, I used four LMH7324 quad comparators with input protection and differential output termination. Two 8-channel SPI DACs generate the thresholds, using a voltage reference, an LMH6609MA buffer and resistor networks to adapt the voltage range.
 
 During schematic development, I corrected grounding errors and a short i caused on the SFP connector because i have put the capacitors to ground and that would've destoryed the signal. I also revised the comparator block to include the missing protection and termination components before duplicating it across all 16 channels and assigning unique net names.
+
+https://lapse.hackclub.com/timelapse/SV1pU1HfbzPU
 
