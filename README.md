@@ -1,5 +1,7 @@
 # OptiLogic-16 Pro
-I created a 16-channel high-speed logic analyzer and network monitor entirely from scratch starting from the PCB design and component selection to the FPGA firmware and 3D modeling.
+
+OptiLogic-16 Pro is a custom built, FPGA-based 16-channel logic analyzer and network monitor designed from scratch from PCB design and component selection to firmware development and 3D modeling.
+Featuring a Xilinx Kintex-7 FPGA 500 MSa/s sampling programmable input thresholds 4 Gbit DDR3 memory three SFP ports Gigabit Ethernet and USB 3.0, it is designed for high-speed digital signal analysis, hardware debugging, and network data acquisition.
 
 ![image.png](media/render.png)
 
