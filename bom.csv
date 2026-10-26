@@ -1,4 +1,4 @@
-﻿Index,LCSC#,MPN,Manufacturer,Package,Customer #,Description,RoHS,Quantity,MOQ,Multiple,Unit Price($),Extended Price($),Product Link
+Index,LCSC#,MPN,Manufacturer,Package,Customer #,Description,RoHS,Quantity,MOQ,Multiple,Unit Price ($),Extended Price ($),Product Link
 1,C17615,0805W8F390KT5E,UNI-ROYAL,0805,,3.9Ω ±1% 125mW 0805 Thick Film Resistor,yes,100,100,100,0.0056,0.56,https://www.lcsc.com/product-detail/C17615.html
 2,C58758,KSZ9031RNXCA,MICROCHIP,QFN-48-EP(7x7),,"PHY Transceiver RGMII QFN-48-EP(7x7) Drivers, Receivers, Transceivers RoHS",yes,1,1,1,5.8153,5.82,https://www.lcsc.com/product-detail/C58758.html
 3,C22018717,Y97KT23B0NAFP,C&K,-,,Tactile Switches RoHS,yes,1,1,1,0.2131,0.21,https://www.lcsc.com/product-detail/C22018717.html
@@ -29,7 +29,7 @@
 28,C134558,RGA102M1VBK-1320,Lelon,"Through Hole,D12.5xL20mm",,"1000uF 35V Aluminum Electrolytic Capacitors Through Hole,D12.5xL20mm 2000hrs@105℃",yes,100,5,5,0.2003,20.03,https://www.lcsc.com/product-detail/C134558.html
 29,C2871819,TPS75115QPWPR,TI,HTSSOP-20-EP,,"1.5V Positive Fixed HTSSOP-20-EP Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",yes,1,1,1,4.0493,4.05,https://www.lcsc.com/product-detail/C2871819.html
 30,C131963,LP5951MF-2.5/NOPB,TI,SOT-23-5,,"2.5V Positive Fixed SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",yes,1,1,1,0.4039,0.40,https://www.lcsc.com/product-detail/C131963.html
-31,C91314,MR854RLG,onsemi,DO-201AD,,150ns 400V 1.04V@3A 3A DO-201AD Single Diodes ,yes,10,10,10,0.0674,0.67,https://www.lcsc.com/product-detail/C91314.html
+31,C91314,MR854RLG,onsemi,DO-201AD,,150ns 400V 1.04V@3A 3A DO-201AD Single Diodes,yes,10,10,10,0.0674,0.67,https://www.lcsc.com/product-detail/C91314.html
 32,C2868758,DAC8568ICPW,TI,TSSOP-16,,5us 2.7V~5.5V 12LSB TSSOP-16 Digital to Analog Converters (DAC) RoHS,yes,2,1,1,32.1387,64.28,https://www.lcsc.com/product-detail/C2868758.html
 33,C29438,TPS54620RGYR,TI,VQFN-14-EP(3.5x3.5),,Buck Switching Regulator IC Adjustable 0.8V~15V 1 Output 6A VQFN-14-EP(3.5x3.5),yes,1,1,1,1.3612,1.36,https://www.lcsc.com/product-detail/C29438.html
 34,C46274,REF5040AIDR,TI,SOIC-8,,4.096V ±0.1% 4.296V~18V 10mA Fixed SOIC-8 Voltage Reference RoHS,yes,1,1,1,1.6610,1.66,https://www.lcsc.com/product-detail/C46274.html
@@ -44,7 +44,7 @@
 43,C19110,CL21B225KAFNNNE,Samsung Electro-Mechanics,0805,,2.2uF ±10% 25V Ceramic Capacitor X7R 0805,yes,20,10,10,0.0246,0.49,https://www.lcsc.com/product-detail/C19110.html
 44,C45783,CL21A226MAQNNNE,Samsung Electro-Mechanics,0805,,22uF ±20% 25V Ceramic Capacitor X5R 0805,yes,100,20,20,0.1934,19.34,https://www.lcsc.com/product-detail/C45783.html
 45,C107146,CC0805KRX7R9BB222,YAGEO,0805,,2.2nF ±10% 50V Ceramic Capacitor X7R 0805,yes,100,100,100,0.0075,0.75,https://www.lcsc.com/product-detail/C107146.html
-46,C5441174,201N1Y02001,CND-tek,Through Hole,,Through Hole Pluggable Connector Accessories ,yes,3,1,1,0.6346,1.90,https://www.lcsc.com/product-detail/C5441174.html
+46,C5441174,201N1Y02001,CND-tek,Through Hole,,Through Hole Pluggable Connector Accessories,yes,3,1,1,0.6346,1.90,https://www.lcsc.com/product-detail/C5441174.html
 47,C7496652,FCC0805N430J500BT,FOJAN,0805,,43pF ±5% 50V Ceramic Capacitor COG 0805,yes,100,100,100,0.0073,0.73,https://www.lcsc.com/product-detail/C7496652.html
 48,C376967,TCC0805X7R273K500DT,CCTC,0805,,27nF ±10% 50V Ceramic Capacitor X7R 0805,yes,100,100,100,0.0085,0.85,https://www.lcsc.com/product-detail/C376967.html
 49,C1804,CL21C220JBANNNC,Samsung Electro-Mechanics,0805,,22pF ±5% 50V Ceramic Capacitor C0G 0805,yes,150,50,50,0.0123,1.85,https://www.lcsc.com/product-detail/C1804.html
@@ -57,7 +57,7 @@
 56,C134565,RGA221M1CBK-0611,Lelon,"Through Hole,D6.3xL11mm",,"220uF 16V Aluminum Electrolytic Capacitors Through Hole,D6.3xL11mm 2000hrs@105℃",yes,100,10,10,0.0438,4.38,https://www.lcsc.com/product-detail/C134565.html
 57,C17444,0805W8F1202T5E,UNI-ROYAL,0805,,12kΩ ±1% 125mW 0805 Thick Film Resistor,yes,100,100,100,0.0028,0.28,https://www.lcsc.com/product-detail/C17444.html
 58,C17471,0805W8F1500T5E,UNI-ROYAL,0805,,150Ω ±1% 125mW 0805 Thick Film Resistor,yes,100,100,100,0.0029,0.29,https://www.lcsc.com/product-detail/C17471.html
-59,C17407,0805W8F1003T5E (SMT),UNI-ROYAL,0805,,100kΩ ±1% 0805 Chip Resistor - Surface Mount ,yes,100,100,100,0.0028,0.28,https://www.lcsc.com/product-detail/C17407.html
+59,C17407,0805W8F1003T5E (SMT),UNI-ROYAL,0805,,100kΩ ±1% 0805 Chip Resistor - Surface Mount,yes,100,100,100,0.0028,0.28,https://www.lcsc.com/product-detail/C17407.html
 60,C17526,0805W8F2401T5E,UNI-ROYAL,0805,,2.4kΩ ±1% 125mW 0805 Thick Film Resistor,yes,100,100,100,0.0028,0.28,https://www.lcsc.com/product-detail/C17526.html
 61,C17673,0805W8F4701T5E,UNI-ROYAL,0805,,4.7kΩ ±1% 125mW 0805 Thick Film Resistor,yes,200,100,100,0.0051,1.02,https://www.lcsc.com/product-detail/C17673.html
 62,C17393,0805W8F1651T5E,UNI-ROYAL,0805,,1.65kΩ ±1% 125mW 0805 Thick Film Resistor,yes,200,100,100,0.0029,0.58,https://www.lcsc.com/product-detail/C17393.html
@@ -70,10 +70,9 @@
 69,C2337,2.54-1*40P,BOOMELE(Boom Precision Elec),"Through Hole,P=2.54mm",,Pin Header 40 Position 2.54mm Pitch Single Row Through Hole -25℃~+85℃,yes,5,5,5,0.1607,0.80,https://www.lcsc.com/product-detail/C2337.html
 70,C124380,B-2100S06P-A110,Ckmtw,"Through Hole,P=2.54mm",,Pin Header 6 Position 2.54mm Pitch Single Row Through Hole -40℃~+105℃,yes,10,10,10,0.0569,0.57,https://www.lcsc.com/product-detail/C124380.html
 71,C2765186,TYPE-C 16PIN 2MD(073),SHOU HAN,SMD,,"USB-C (USB TYPE-C) Receptacle Connector 16 Position Surface Mount, Right Angle",yes,20,20,20,0.0719,1.44,https://www.lcsc.com/product-detail/C2765186.html
-,,1GBit SFP LC/LC Transciever,,,,,,3,,,,47.99,https://www.amazon.it/gp/product/B01DD0ZI7I/
-,,LC/LC Fiber cable ,,,,,,3,,,,30,https://www.amazon.it/gp/product/B0HL28KK1X/ref=ox_sc_act_title_12?smid=A3I27YI4UGWCDD&psc=1
-,,Hot Plate,,,,This is necessary to solder the FGPA because the pins are not exposed externally,,1,,,,20,https://it.aliexpress.com/item/1005005441274815.html
-,,8 Layer PCB + stencil,,,,,,1,,,,180,
-,,Laser warning sticker,,,,,,1,,,,6,https://www.amazon.it/gp/product/B09NP5HWWF/ref=ox_sc_act_title_3?smid=AZV51B80MC0DX&psc=1
-,,Magnetic probe,,,,Necessary to diagnose the PCB,,1,,,,20,https://www.amazon.it/gp/product/B0CSS8PYJN/ref=ox_sc_act_title_5?smid=A2NOUPHP9BX11D&psc=1
-,,TOTAL,,,,,,,,,,609.26,
+,,,,,,1GBit SFP LC/LC Transciever,,3,,,,47.99,https://www.amazon.it/gp/product/B01DD0ZI7I/
+,,,,,,LC/LC Fiber cable,,3,,,,30,https://www.amazon.it/gp/product/B0HL28KK1X/ref=ox_sc_act_title_12?smid=A3I27YI4UGWCDD&psc=1
+,,,,,,8 Layer PCB + stencil,,1,,,,180,
+,,,,,,Laser warning sticker,,1,,,,6,https://www.amazon.it/gp/product/B09NP5HWWF/ref=ox_sc_act_title_3?smid=AZV51B80MC0DX&psc=1
+,,,,,,Shipping + Tax,,1,,,,80,
+,,,,,,TOTAL,,,,,,649.26,
